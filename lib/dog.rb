@@ -10,11 +10,11 @@ class Dog
   end
   
   def bark
-    puts "woof!"
+    @bark = "woof!"
   end
   
   def bark
-    bark
+    puts @bark
   end
   
 end
