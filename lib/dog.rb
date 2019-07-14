@@ -14,7 +14,7 @@ class Dog
   end
   
   def bark
-    puts @bark
+    @bark
   end
   
 end
