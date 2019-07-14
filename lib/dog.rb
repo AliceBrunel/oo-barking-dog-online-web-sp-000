@@ -9,4 +9,12 @@ class Dog
     @the_name
   end
   
+  def bark
+    puts "woof!"
+  end
+  
+  def bark
+    bark
+  end
+  
 end
